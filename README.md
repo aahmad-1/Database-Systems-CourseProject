@@ -1,6 +1,6 @@
 # Library Management Database System
 
-Relational database project for Basics of Database Systems
+Final course project for Basics of Database Systems
 
 ---
 
@@ -23,9 +23,9 @@ The system models:
 ## Files Included
 
 ```
-create_insert.sql   - Database schema and sample data
+create_insert.sql   - Database schema & sample data
 queries.sql         - Required SQL queries
-library.db          - SQLite database file
+library.db          - Database file
 Report.pdf          - Project documentation
 ```
 
@@ -34,8 +34,8 @@ Report.pdf          - Project documentation
 ## Database Features
 
 - Primary keys and foreign keys
-- ON DELETE and ON UPDATE referential actions
-- Many-to-many relationship using associative table (BookAuthor)
+- ON DELETE and ON UPDATE actions
+- Many-to-many relationship using an associative table (BookAuthor)
 - 3NF normalized schema
 - Aggregation queries with JOIN and GROUP BY
 - Data integrity constraints (NOT NULL, DEFAULT, etc.)
@@ -54,7 +54,7 @@ Open `library.db` directly and execute queries.
 
 ---
 
-## Course Applied
+## Concepts Applied
 
 - ER modeling
 - Relational schema design
@@ -62,4 +62,4 @@ Open `library.db` directly and execute queries.
 - Normalization (1NF–3NF)
 - JOIN operations
 - Aggregation functions
-- Referential integrity constraints
+- Data integrity constraints
